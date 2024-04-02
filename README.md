@@ -70,6 +70,8 @@ If you want to build binaries, make sure you have pywin32 installed (Windows onl
 as well as pyinstaller. Then run the following command from the script directory.
 
     pyinstaller --clean --onefile pyinstaller.spec
+    or 
+    pyinstaller pyinstaller.spec
     
 The binary will be put into the `dist` directory within the script directory.
     
